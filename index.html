@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Academy de langues</title>
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!-- header : navbar -->
+        <div class="header">
+
+            <div class="logo">
+                <img src="./assests/images/logo_1.png" alt="">
+            </div>
+
+            <div class="contacts">
+                <div class="contact c1">
+                    <span class="icon"><img src="./assests/images/phone.png" alt="phone"></span>
+                    <span>06 11 22 33 44</span>
+                </div>
+                <div class="contact c2">
+                    <span class="icon"><img src="./assests/images/facebook.png" alt="phone"></span>
+                    <span>Page Facebook</span>
+                </div>
+                <div class="contact c3">
+                    <span class="icon"><img src="./assests/images/insta.png" alt="phone"></span>
+                    <span>Page Instagram</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Hero section -->
+        <div class="heroSection">
+            <div class="container">
+                <div class="position">
+                    <h1>
+                        <span class="fChild">Formez-vous </span> <br>
+                        <span class="lChild">Aux métiers de demain</span>
+                    </h1>
+    
+                    <p>Préparez-vous aux défis du marché de l'emploi de demain grâce à une 
+                        expérience d'apprentissage pratique et collaborative</p>
+                </div>
+                
+                <button class="btnInscription">Je m'inscris</button>
+            </div>
+        </div>
+
+        <!-- Formation Section -->
+        <div class="FormationSection">
+            <div class="title">
+                <h1>Les Cours</h1>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assests/images/france.jpg" alt="Drapeau France">
+                    <h3>La langue Française</h3>
+                    <p class="description">Apprenez la langue de l'amour et de la culture raffinée.</p>
+                    <p class="nombreHeures">Nombre d'heures : 24 heures</p>
+                    <p class="price">$25</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/images/english.jpg" alt="Drapeau English">
+                    <h3>La langue Anglaise</h3>
+                    <p class="description">Explorez la langue internationale des affaires et de la communication mondiale.</p>
+                    <p class="nombreHeures">Nombre d'heures : 24 heures</p>
+                    <p class="price">$30</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/images/espagne.jpg" alt="Drapeau Espagne">
+                    <h3>La langue Espagnole</h3>
+                    <p class="description">Plongez dans la langue passionnante de la musique, de la danse et de la diversité culturelle.</p>
+                    <p class="nombreHeures">Nombre d'heures : 20 heures</p>
+                    <p class="price">$25</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assests/images/china.jpg" alt="Drapeau China">
+                    <h3>La langue Chinoise</h3>
+                    <p class="description">Explorez la langue internationale des affaires et de la communication mondiale.</p>
+                    <p class="nombreHeures">Nombre d'heures : 16 heures</p>
+                    <p class="price">$40</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/images/germany.jpg" alt="Drapeau Germany">
+                    <h3>La langue Allemande</h3>
+                    <p class="description">Maîtrisez une langue riche en histoire et en innovation technologique.</p>
+                    <p class="nombreHeures">Nombre d'heures : 16 heures</p>
+                    <p class="price">$40</p>
+                </div>
+            </div>
+        </div>
+        <!-- Statistique Section -->
+        <div class="statistique">
+            <div class="Titre">
+                <h1>Statistiques</h1>
+            </div>
+            <div class="contenu">
+                <div class="box">
+                    <div class="number">324</div>
+                    <p>Les Etudiants Inscrits</p>
+                </div>
+                <div class="box">
+                    <div class="number">201</div>
+                    <p>Les Etudiants Fière</p>
+                </div>
+                <div class="box">
+                    <div class="number">277</div>
+                    <p>Les Etudiants Réussi</p>
+                </div>
+                <div class="box">
+                    <div class="number">5</div>
+                    <p>Nombre De Formations</p>
+                </div>
+        </div>
+        <!-- Formulaire -->
+        <div class="formulaire">
+            <div class="image">
+                <img src="./assests/images/img2.jpg" >
+            </div>
+            <div class="contenu1">
+                <div class="Inscription">
+                    <table>
+                        <tr>
+                            <td>Nom Complet :</td>
+                            <td><input type="text" placeholder="Nom Complet"></td>
+                        </tr>
+                        <tr>
+                            <td>Numéro téléphone :</td>
+                            <td><input type="tel" placeholder="Numéro téléphone"></td>
+                        </tr>
+                        <tr>
+                            <td>Email :</td>
+                            <td><input type="email" placeholder="Email"></td>
+                        </tr>
+                        <tr>
+                            <td>Formation :</td>
+                            <td>
+                                <input type="checkbox" class="checkbox">Français
+                                <input type="checkbox" class="checkbox">Englais
+                                <input type="checkbox" class="checkbox">Espagnole
+                                <input type="checkbox" class="checkbox">Chinoise
+                                <input type="checkbox" class="checkbox">Allemande
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Message :</td>
+                            <td><textarea placeholder="Message" cols="40" rows="7"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>  </td>
+                            <td><input type="submit" value="Envoyer" class="btn"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer-content">
+          <div>
+            <img src="./assests/images/logo.png" alt="Logo">
+          </div>
+          <div>
+            <p class="titre">Copy Right :</p>
+            <p class="infos">© 2023 Tous droits réservés.</p>
+          </div>
+          <div>
+            <p class="titre">Contact :</p>
+            <p class="infos">06 56 30 42 90</p>
+          </div>
+          <div>
+            <p class="titre">Adresse :</p>
+            <p class="infos">Ain Atti 1 bloc 3</p>
+          </div>
+        </div>
+    </footer>
+    </body>
+</html>
